@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'neueBold';
+    src: url('/src/styles/fonts/TT\ Firs\ Neue\ Trial\ Medium.ttf');
+}
+@font-face {
+    font-family: 'neueRegular';
+    src: url('/src/styles/fonts/TT\ Firs\ Neue\ Trial\ Light.ttf');
+}
+@font-face {
+    font-family: 'neueThin';
+    src: url('/src/styles/fonts/TT\ Firs\ Neue\ Trial\ Thin.ttf');
+}
+
+.neueBold{
+    font-family: "neueBold";
+}
+.neueRegular{
+    font-family: "neueRegular";
+}
+.neueThin{
+    font-family: "neueThin";
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -20,6 +43,7 @@
     text-decoration: none;
     list-style: none;
     font-size: 24px;
+    font-family: "neueThin";
 }
 
 header hr{
@@ -40,6 +64,7 @@ header hr{
 
 .text-96{
     font-size: 96px;
+    font-weight: 100;
 }
 
 .flex-col{
@@ -57,4 +82,147 @@ header hr{
     border: 1px solid black;
     position: relative;
     left: -317px;
+}
+
+/* WORK CONTAINER */
+
+.work-section{
+    margin-top: 82px;
+    margin-left:350px;
+}
+
+.work-container span{
+    color: #EF4242;
+}
+.work-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 63px;
+}
+
+.text-64{
+    font-size: 64px;
+}
+
+.work-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    gap: 19px;
+
+}
+
+.arrow-wrapper-2{
+    width: 40px;
+    height: 40px;
+    padding: 42px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    top: 158px;
+    
+}
+
+.text-36{
+    font-size: 36px;
+}
+
+.img-scroll{
+    display: flex;
+    justify-content: end;
+    margin-right: 400px;
+}
+
+/* nike container */
+
+.nike-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.nike-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.nike-wrapper img{
+    height: 42px;
+    width: 42px;
+    
+}
+
+.some-text{
+    margin-right: 400px;
+    line-height: 1.5;
+}
+
+.text-24{
+    font-size: 24px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+/* gallery section */
+
+.gallery-section{
+    margin-top: 80px;
+}
+
+.absolute{
+    position: absolute;
+    top: 2350px;
+    left: 1410px;
+}
+
+.image-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.holke-picture{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.falsa-picture{
+     display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+.list{
+    margin-top:70px ;
+}
+
+.list li{
+    display: flex;
+    gap:32px
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 80px;
+}
+
+.text-48{
+    font-size: 48px;
+}
+
+.red{
+    color: #EF4242;
+}
+.second-list{
+    margin-top: 30px;
 }
