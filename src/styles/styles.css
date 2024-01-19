@@ -15,6 +15,10 @@
     font-family: 'neueThin';
     src: url('/src/styles/fonts/TT\ Firs\ Neue\ Trial\ Thin.ttf');
 }
+@font-face {
+    font-family: 'neueOutline';
+    src: url('/src/styles/fonts/TT\ Firs\ Neue\ Bold\ Outline\ Trial.otf');
+}
 
 .neueBold{
     font-family: "neueBold";
@@ -24,6 +28,9 @@
 }
 .neueThin{
     font-family: "neueThin";
+}
+.neueOutline{
+    font-family: "neueOutline";
 }
 
 .navbar{
@@ -44,6 +51,7 @@
     list-style: none;
     font-size: 24px;
     font-family: "neueThin";
+    cursor: pointer;
 }
 
 header hr{
@@ -230,7 +238,7 @@ header hr{
 /* SERVICE SECTION */
 
 .service-section{
-    margin-top: 300px;
+    margin-top: 10px;
 }
 
 .service-section p {
@@ -276,6 +284,7 @@ header hr{
     margin-top: 180px;
     display: flex;
     justify-content: center;
+   
 }
 
 .background-container{
@@ -324,4 +333,44 @@ header hr{
 .red-color{
     color: #EF4242;
     font-weight: 800;
+}
+
+
+.contact-section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.footer-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.services{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
