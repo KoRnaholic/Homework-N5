@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'neueBold';
     src: url('/src/styles/fonts/TT\ Firs\ Neue\ Trial\ Medium.ttf');
@@ -39,6 +43,11 @@
     margin-top: 58px;
     margin-left: 82px;
     margin-right: 82px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .navbar ul {
