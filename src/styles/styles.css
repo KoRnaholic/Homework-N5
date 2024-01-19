@@ -226,3 +226,102 @@ header hr{
 .second-list{
     margin-top: 30px;
 }
+
+/* SERVICE SECTION */
+
+.service-section{
+    margin-top: 300px;
+}
+
+.service-section p {
+    margin-left: 365px;
+    margin-bottom: 70px;
+}
+
+.service-section li {
+    list-style: none;
+}
+.service-section ul{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   /* margin-right: 200px; */
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.service-container li:hover{
+    color: #EF4242;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.service-container li:hover::after{
+    content: url('/src/icons/vector-red.svg');
+   
+}
+
+.width{
+    width: 800px;
+}
+
+/* about section */
+
+.about-section{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.background-container{
+    background-image: url('/src/images/background-img.png');
+    width: 1276px;
+    height: 827px;
+    /* padding-left: 85px; */
+}
+
+.paragraph {
+    margin-top: 85px;
+    font-size: 18px;
+    margin-left: 85px;
+}
+
+.background-container h2{
+     margin-left: 85px;
+     margin-top: 50px;
+}
+
+.client-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 650px;
+}
+
+.picture{
+    margin-left: 400px;
+    margin-top: -340px;
+}
+
+
+.something{
+    display: flex;
+    gap: 110px;
+}
+
+.design{
+    margin-top: 60px;
+}
+
+.red-color{
+    color: #EF4242;
+    font-weight: 800;
+}
